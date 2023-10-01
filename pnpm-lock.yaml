@@ -64,8 +64,8 @@ importers:
         specifier: workspace:*
         version: link:__utils__/eslint-config
       '@pnpm/meta-updater':
-        specifier: 0.2.2
-        version: 0.2.2(typanion@3.12.1)
+        specifier: 0.2.3
+        version: 0.2.3(typanion@3.12.1)
       '@pnpm/registry-mock':
         specifier: 3.8.0
         version: 3.8.0(typanion@3.12.1)
@@ -7608,7 +7608,6 @@ packages:
   /@pnpm/config.env-replace@1.1.0:
     resolution: {integrity: sha512-htyl8TWnKL7K/ESFa1oW2UB5lVDxuF5DpM7tBi6Hu2LNL3mWkIzNLG6N4zoCUP1lCKNxWy/3iu8mS8MvToGd6w==}
     engines: {node: '>=12.22.0'}
-    dev: false
 
   /@pnpm/config@17.0.5(@pnpm/logger@5.0.0)(@yarnpkg/core@4.0.0-rc.14)(typanion@3.12.1):
     resolution: {integrity: sha512-4bvc74xa95gs1uPx8bkdujqHA8gB0UiDzUXXglisFTvMBbnCZTEeGyFlbzjy+2TNEyhITwVmg0nh2V9PqJ3Fow==}
@@ -8078,7 +8077,7 @@ packages:
       semver: 7.5.0
       sort-keys: 4.2.0
       strip-bom: 4.0.0
-      write-file-atomic: 5.0.0
+      write-file-atomic: 5.0.1
     dev: true
 
   /@pnpm/lockfile-to-pnp@2.0.14(@pnpm/logger@5.0.0):
@@ -8161,8 +8160,8 @@ packages:
       semver: 7.5.0
     dev: true
 
-  /@pnpm/meta-updater@0.2.2(typanion@3.12.1):
-    resolution: {integrity: sha512-wh3LdQYM1aTl4vbuh+7Lv6amaDrQTu+iAIs0qsovIVnQfhHvRpwEdICHZTKC/xdthd4uGUmNZRvhoITzGLu1tg==}
+  /@pnpm/meta-updater@0.2.3(typanion@3.12.1):
+    resolution: {integrity: sha512-UY169BS9mTjM+UG5tqxSQaClvvG+Kd8c7w3uNCERfTC5k+mT5+6h79/h2mMQ6VKvZyTxgD2WMlfAWOBS6y1luA==}
     engines: {node: '>=10.12'}
     hasBin: true
     dependencies:
@@ -8273,7 +8272,7 @@ packages:
     resolution: {integrity: sha512-xWjBhnntYvAjYt1alEoFJiThMe0ZhSY7iZuxBUR+DH3tH2RyGrP2KU75NZfo/jhc3dSBUqZrd1DnIIgkQ0WyKw==}
     engines: {node: '>=12'}
     dependencies:
-      '@pnpm/config.env-replace': 1.0.0
+      '@pnpm/config.env-replace': 1.1.0
       '@pnpm/network.ca-file': 1.0.2
       config-chain: 1.1.13
     dev: true
@@ -8758,7 +8757,7 @@ packages:
       '@pnpm/text.comments-parser': 1.0.0
       '@pnpm/types': 8.10.0
       json5: 2.2.3
-      write-file-atomic: 5.0.0
+      write-file-atomic: 5.0.1
       write-yaml-file: 4.2.0
     dev: true
 
@@ -17744,7 +17743,7 @@ time:
   /@pnpm/exec@2.0.0: '2020-10-29T23:51:01.271Z'
   /@pnpm/graph-sequencer@1.1.0: '2023-04-14T13:43:13.918Z'
   /@pnpm/logger@5.0.0: '2022-10-14T13:56:04.285Z'
-  /@pnpm/meta-updater@0.2.2: '2022-11-18T12:00:42.706Z'
+  /@pnpm/meta-updater@0.2.3: '2023-05-05T12:38:11.197Z'
   /@pnpm/network.agent@0.1.0: '2023-02-18T01:03:06.709Z'
   /@pnpm/node-fetch@1.0.0: '2023-04-19T11:13:43.487Z'
   /@pnpm/nopt@0.2.1: '2021-06-01T19:45:54.552Z'
